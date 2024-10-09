@@ -331,8 +331,8 @@ function Home() {
             {renderRateDisplay()}
             {errorMessage && <div className='alert alert-danger' style={{ fontSize: 50 }}>{errorMessage}</div>}
             {successMessage && <div className="alert alert-success">{successMessage}</div>}
-            {renderTrackedPairsSelector()}
             {renderAddNewPair()}
+            {renderTrackedPairsSelector()}
             {renderChart()}
             {renderModal()}
         </div>
